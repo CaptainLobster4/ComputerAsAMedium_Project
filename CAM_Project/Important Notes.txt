@@ -1,0 +1,17 @@
+ I downloaded Git Git - Install for Windows
+2. for the installation I added to path, and got git bash 
+3. Cloned my repo from GitHub online to my computer using GitHub desktop 
+4. Right click location of local repo and selected open gitbash here 
+5. typed in "git lfs install" into git bash 
+6. typed in "git lfs track "*.psd" " 
+7. Push local repo to the git server one using gtihub desktop and a commit 
+on the website I edited the new .gitattribute file to one that is unity based .gitattributes for Unity3D with git-lfs
+Pulled the server one into my local using GitHub desktop and using fetch origin 
+moved my game files ( assets, logs, library, packages, etc. ) into my local repo location 
+committed and pushed
+
+For collisions in unity to occur: 
+BOTH objects need a collider, this can be 3D ( box, capsule, sphere) or 2d ( square, circle etc) 
+One object needs a rigid body either 3D or 2d
+Rigid body controls both collision and physics. If you don't want physics ( gravity and force) set your ridged body to kinematic instead of dynamic 
+If you have mismatched things it wont work ( 2d collider and 3d rigidbody ) make sure it's all consistent. Finally, if your script asks you for a trigger collision, set  the collider to trigger

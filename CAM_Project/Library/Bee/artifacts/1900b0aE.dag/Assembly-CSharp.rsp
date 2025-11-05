@@ -411,9 +411,10 @@
 -analyzer:"C:/Users/Owner/Desktop/Unity Projects/6000.2.6f2/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Users/Owner/Desktop/Unity Projects/6000.2.6f2/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Scripts/Bullet.cs"
+"Assets/Scripts/Cloud.cs"
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/GameManager.cs"
-"Assets/Scripts/Player.cs"
+"Assets/Scripts/PlayerController.cs"
 -langversion:9.0
 /deterministic
 /optimize+
