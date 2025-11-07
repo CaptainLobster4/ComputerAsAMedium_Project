@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
 
     void CreateEnemy()
     {
-        Instantiate(enemyOnePrefab, new Vector3(Random.Range(-horizontalScreenSize, horizontalScreenSize) * 0.9f, verticalScreenSize, 0), Quaternion.Euler(180, 0, 0));
+        Instantiate(enemyOnePrefab, new Vector3(Random.Range(-horizontalScreenSize, horizontalScreenSize) * 0.7f, verticalScreenSize, 0), Quaternion.Euler(180, 0, 0));
         Instantiate(enemyTwoPrefab, new Vector3(Random.Range(-horizontalScreenSize, horizontalScreenSize) * 0.7f, verticalScreenSize, 0), Quaternion.Euler(180, 0, 0));
     }
 

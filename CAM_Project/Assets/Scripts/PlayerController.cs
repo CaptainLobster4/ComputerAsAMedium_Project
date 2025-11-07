@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     {
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         lives = 3;
-        playerSpeed = 5.0f;
+        playerSpeed = 6.5f;
         gameManager.ChangeLivesText(lives);
     }
 
