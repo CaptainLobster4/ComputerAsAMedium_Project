@@ -146,3 +146,11 @@ Temp/
 Obj/
 Build/
 Builds/
+CAM_Project/Library/ArtifactDB
+CAM_Project/Library/Bee/fullprofile.json
+CAM_Project/Library/Bee/tundra.log.json
+CAM_Project/Library/Search/transactions.db
+CAM_Project/Library/SourceAssetDB
+CAM_Project/Library/UndoData.bin
+CAM_Project/Library/UndoStack.bin
+CAM_Project/UserSettings/Layouts/default-6000.dwlt
