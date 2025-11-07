@@ -1,1 +1,7 @@
 * text-auto
+*.prefab binary
+*.meta binary
+*.unity binary
+*.png binary
+*.jpg binary
+*.json binary
