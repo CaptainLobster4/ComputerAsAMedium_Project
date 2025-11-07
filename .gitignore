@@ -97,3 +97,14 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+CAM_Project/Library/ArtifactDB
+CAM_Project/Library/ArtifactDB-lock
+CAM_Project/Library/Search/transactions.db
+CAM_Project/Library/SourceAssetDB
+CAM_Project/Library/SourceAssetDB-lock
+CAM_Project/Library/UndoData.bin
+CAM_Project/Library/UndoStack.bin
+CAM_Project/Temp/FSTimeGet-1af5e0b10f660b64ab65088269fdf94b
+CAM_Project/Temp/FSTimeGet-85477c9d58e668440b46a97838aeccb3
+CAM_Project/Temp/FSTimeGet-c498e0072d496594e9749ddf87064cf8
+CAM_Project/Temp/UnityLockfile
