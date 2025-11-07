@@ -97,3 +97,62 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# =============================
+# Unity generated files
+# =============================
+
+# Unity temp files
+Temp/
+Obj/
+Build/
+Builds/
+
+# Unity Library folder
+Library/
+
+# Unity Crash Reports
+CrashReports/
+
+# Unity auto-generated VS/IDE files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+
+# Unity auto-generated Rider/Jetbrains files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Unity cache
+MemoryCaptures/
+*.apk
+*.aab
+*.obb
+*.log
+
+# Unity cache/library
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+CAM_Project/Library/ArtifactDB
+CAM_Project/Library/Bee/fullprofile.json
+CAM_Project/Library/Bee/tundra.log.json
+CAM_Project/Library/Search/transactions.db
+CAM_Project/Library/SourceAssetDB
+CAM_Project/Library/UndoData.bin
+CAM_Project/Library/UndoStack.bin
+CAM_Project/UserSettings/Layouts/default-6000.dwlt
+CAM_Project/Library/ArtifactDB-lock
+CAM_Project/Library/SourceAssetDB-lock
