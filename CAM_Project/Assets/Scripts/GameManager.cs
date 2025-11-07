@@ -1,35 +1,60 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    public float horizontalScreenSize = 5f;
-    public float verticalScreenSize = 6f;
+
+    public GameObject playerPrefab;
+    public GameObject enemyOnePrefab;
+    public GameObject cloudPrefab;
+
+    public TextMeshProUGUI livesText;
+
+    public float horizontalScreenSize;
+    public float verticalScreenSize;
 
     public int score;
-    public GameObject enemyOnePrefab;
 
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("CreateEnemyOne", 1, 2);
+        horizontalScreenSize = 10f;
+        verticalScreenSize = 6.5f;
+        score = 0;
+        Instantiate(playerPrefab, transform.position, Quaternion.identity);
+        CreateSky();
+        InvokeRepeating("CreateEnemy", 1, 3);
     }
 
     // Update is called once per frame
     void Update()
     {
-       
+        
     }
 
-    void CreateEnemyOne()
+    void CreateEnemy()
     {
-        Instantiate(enemyOnePrefab, new Vector3(Random.Range(-9f, 9f), 6.5f, 0), Quaternion.identity);
+        Instantiate(enemyOnePrefab, new Vector3(Random.Range(-horizontalScreenSize, horizontalScreenSize) * 0.9f, verticalScreenSize, 0), Quaternion.Euler(180, 0, 0));
     }
 
-    public void AddScore(int pointsToAdd)
+    void CreateSky()
     {
-        score += pointsToAdd;
-        Debug.Log("Score: " + score);
+        for (int i = 0; i < 30; i++)
+        {
+            Instantiate(cloudPrefab, new Vector3(Random.Range(-horizontalScreenSize, horizontalScreenSize), Random.Range(-verticalScreenSize, verticalScreenSize), 0), Quaternion.identity);
+        }
+        
+    }
+    public void AddScore(int earnedScore)
+    {
+        score = score + earnedScore;
+    }
+
+    public void ChangeLivesText (int currentLives)
+    {
+        livesText.text = "Lives: " + currentLives;
     }
 }
