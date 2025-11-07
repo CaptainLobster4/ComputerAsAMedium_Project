@@ -97,6 +97,7 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+<<<<<<< HEAD
 CAM_Project/Library/ArtifactDB
 CAM_Project/Library/ArtifactDB-lock
 CAM_Project/Library/Search/transactions.db
@@ -108,3 +109,64 @@ CAM_Project/Temp/FSTimeGet-1af5e0b10f660b64ab65088269fdf94b
 CAM_Project/Temp/FSTimeGet-85477c9d58e668440b46a97838aeccb3
 CAM_Project/Temp/FSTimeGet-c498e0072d496594e9749ddf87064cf8
 CAM_Project/Temp/UnityLockfile
+=======
+
+# =============================
+# Unity generated files
+# =============================
+
+# Unity temp files
+Temp/
+Obj/
+Build/
+Builds/
+
+# Unity Library folder
+Library/
+
+# Unity Crash Reports
+CrashReports/
+
+# Unity auto-generated VS/IDE files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+
+# Unity auto-generated Rider/Jetbrains files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Unity cache
+MemoryCaptures/
+*.apk
+*.aab
+*.obb
+*.log
+
+# Unity cache/library
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+CAM_Project/Library/ArtifactDB
+CAM_Project/Library/Bee/fullprofile.json
+CAM_Project/Library/Bee/tundra.log.json
+CAM_Project/Library/Search/transactions.db
+CAM_Project/Library/SourceAssetDB
+CAM_Project/Library/UndoData.bin
+CAM_Project/Library/UndoStack.bin
+CAM_Project/UserSettings/Layouts/default-6000.dwlt
+CAM_Project/Library/ArtifactDB-lock
+CAM_Project/Library/SourceAssetDB-lock
+>>>>>>> TylerTestBranch
