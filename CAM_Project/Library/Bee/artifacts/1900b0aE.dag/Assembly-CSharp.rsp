@@ -410,6 +410,7 @@
 -analyzer:"C:/Users/Owner/Desktop/Unity Projects/6000.2.8f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Users/Owner/Desktop/Unity Projects/6000.2.8f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Users/Owner/Desktop/Unity Projects/6000.2.8f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/Scripts/Bullet.cs"
 "Assets/Scripts/Cloud.cs"
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/Explosion.cs"

@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
 
     public int lives;
-    private float speed;
+    private float playerSpeed;
 
     private GameManager gameManager;
 
@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     {
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         lives = 3;
-        speed = 5.0f;
+        playerSpeed = 5.0f;
         gameManager.ChangeLivesText(lives);
     }
 
@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
 
     void Shooting()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             Instantiate(bulletPrefab, transform.position + new Vector3(0, 0.5f, 0), Quaternion.identity);
         }
@@ -55,22 +55,36 @@ public class PlayerController : MonoBehaviour
 
     void Movement()
     {
+        // Read player input
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
-        transform.Translate(new Vector3(horizontalInput, verticalInput, 0) * Time.deltaTime * speed);
 
+        // Move player
+        transform.Translate(new Vector3(horizontalInput, verticalInput, 0) * Time.deltaTime * playerSpeed);
+
+        // Get bounds from GameManager (synced with camera)
         float horizontalScreenSize = gameManager.horizontalScreenSize;
         float verticalScreenSize = gameManager.verticalScreenSize;
 
+        // --- Horizontal wrap-around ---
         if (transform.position.x <= -horizontalScreenSize || transform.position.x > horizontalScreenSize)
         {
             transform.position = new Vector3(transform.position.x * -1, transform.position.y, 0);
         }
 
-        if (transform.position.y <= -verticalScreenSize || transform.position.y > verticalScreenSize)
-        {
-            transform.position = new Vector3(transform.position.x, transform.position.y * -1, 0);
-        }
+        // --- Vertical clamp (relative to camera position) ---
+        Camera cam = Camera.main;
+        float camY = cam.transform.position.y;
+
+        // bottom = bottom of camera view, top = halfway up the camera
+        float bottomLimit = camY - verticalScreenSize +4.5f;
+        float topLimit = camY; // halfway up camera view
+
+        Vector3 clampedPosition = transform.position;
+        clampedPosition.y = Mathf.Clamp(clampedPosition.y, bottomLimit, topLimit);
+        transform.position = clampedPosition;
+
 
     }
 }
+
