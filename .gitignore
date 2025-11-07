@@ -97,3 +97,45 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# =============================
+# Unity generated files
+# =============================
+
+# Unity temp files
+Temp/
+Obj/
+Build/
+Builds/
+
+# Unity Library folder
+Library/
+
+# Unity Crash Reports
+CrashReports/
+
+# Unity auto-generated VS/IDE files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+
+# Unity auto-generated Rider/Jetbrains files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Unity cache
+MemoryCaptures/
+*.apk
+*.aab
+*.obb
+*.log

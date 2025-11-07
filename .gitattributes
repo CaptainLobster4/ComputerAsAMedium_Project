@@ -5,3 +5,24 @@
 *.png binary
 *.jpg binary
 *.json binary
+# =============================
+# Unity binary files (do not normalize)
+# =============================
+*.prefab binary
+*.meta binary
+*.unity binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tga binary
+*.psd binary
+*.fbx binary
+*.mat binary
+*.anim binary
+*.controller binary
+*.asset binary
+*.json binary
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.shader binary
