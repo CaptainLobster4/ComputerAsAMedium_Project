@@ -139,3 +139,10 @@ MemoryCaptures/
 *.aab
 *.obb
 *.log
+
+# Unity cache/library
+Library/
+Temp/
+Obj/
+Build/
+Builds/
