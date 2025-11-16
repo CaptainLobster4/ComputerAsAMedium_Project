@@ -1,25 +1,25 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/Owner/Desktop/ComputerAsAMedium_Project/CAM_Project/Packages/manifest.json
+    m_FilePath: C:/Users/Owner/Desktop/Fighter Planes Spring 2025/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638981386538221989
+      ticks: 638987698159454763
     m_Hash: 3783534639
   m_LockFileStatus:
-    m_FilePath: C:/Users/Owner/Desktop/ComputerAsAMedium_Project/CAM_Project/Packages/packages-lock.json
+    m_FilePath: C:/Users/Owner/Desktop/Fighter Planes Spring 2025/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638981386538241978
+      ticks: 638987698268612594
     m_Hash: 2688282273
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/Owner/Desktop/ComputerAsAMedium_Project/CAM_Project/Packages
+m_ProjectPath: C:/Users/Owner/Desktop/Fighter Planes Spring 2025/Packages
 m_EditorVersion: 6000.2.8f1 (c9992ac36c34)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.9.3
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.9.3
   source: 1
-  resolvedPath: C:\Users\Owner\Desktop\ComputerAsAMedium_Project\CAM_Project\Library\PackageCache\com.unity.collab-proxy@ab839cc7d2ad
+  resolvedPath: C:\Users\Owner\Desktop\Fighter Planes Spring 2025\Library\PackageCache\com.unity.collab-proxy@ab839cc7d2ad
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -209,7 +209,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.2
   source: 2
-  resolvedPath: C:\Users\Owner\Desktop\ComputerAsAMedium_Project\CAM_Project\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
+  resolvedPath: C:\Users\Owner\Desktop\Fighter Planes Spring 2025\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -320,7 +320,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Owner\Desktop\ComputerAsAMedium_Project\CAM_Project\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
+  resolvedPath: C:\Users\Owner\Desktop\Fighter Planes Spring 2025\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -416,7 +416,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.9
   source: 1
-  resolvedPath: C:\Users\Owner\Desktop\ComputerAsAMedium_Project\CAM_Project\Library\PackageCache\com.unity.timeline@6b9e48457ddb
+  resolvedPath: C:\Users\Owner\Desktop\Fighter Planes Spring 2025\Library\PackageCache\com.unity.timeline@6b9e48457ddb
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -614,7 +614,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\Owner\Desktop\ComputerAsAMedium_Project\CAM_Project\Library\PackageCache\com.unity.ugui@8d7885e629a4
+  resolvedPath: C:\Users\Owner\Desktop\Fighter Planes Spring 2025\Library\PackageCache\com.unity.ugui@8d7885e629a4
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -710,7 +710,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.7
   source: 1
-  resolvedPath: C:\Users\Owner\Desktop\ComputerAsAMedium_Project\CAM_Project\Library\PackageCache\com.unity.visualscripting@6279e2b7c485
+  resolvedPath: C:\Users\Owner\Desktop\Fighter Planes Spring 2025\Library\PackageCache\com.unity.visualscripting@6279e2b7c485
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -3610,7 +3610,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.23
   source: 1
-  resolvedPath: C:\Users\Owner\Desktop\ComputerAsAMedium_Project\CAM_Project\Library\PackageCache\com.unity.ide.visualstudio@198cdf337d13
+  resolvedPath: C:\Users\Owner\Desktop\Fighter Planes Spring 2025\Library\PackageCache\com.unity.ide.visualstudio@198cdf337d13
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -3728,7 +3728,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.38
   source: 1
-  resolvedPath: C:\Users\Owner\Desktop\ComputerAsAMedium_Project\CAM_Project\Library\PackageCache\com.unity.ide.rider@1f60b3138684
+  resolvedPath: C:\Users\Owner\Desktop\Fighter Planes Spring 2025\Library\PackageCache\com.unity.ide.rider@1f60b3138684
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -3859,7 +3859,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: C:\Users\Owner\Desktop\ComputerAsAMedium_Project\CAM_Project\Library\PackageCache\com.unity.editorcoroutines@7d48783e7b8c
+  resolvedPath: C:\Users\Owner\Desktop\Fighter Planes Spring 2025\Library\PackageCache\com.unity.editorcoroutines@7d48783e7b8c
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -3948,7 +3948,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.3
   source: 1
-  resolvedPath: C:\Users\Owner\Desktop\ComputerAsAMedium_Project\CAM_Project\Library\PackageCache\com.unity.performance.profile-analyzer@a68e7bc84997
+  resolvedPath: C:\Users\Owner\Desktop\Fighter Planes Spring 2025\Library\PackageCache\com.unity.performance.profile-analyzer@a68e7bc84997
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -4045,7 +4045,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.6.0
   source: 2
-  resolvedPath: C:\Users\Owner\Desktop\ComputerAsAMedium_Project\CAM_Project\Library\PackageCache\com.unity.test-framework@d97b7cd61ded
+  resolvedPath: C:\Users\Owner\Desktop\Fighter Planes Spring 2025\Library\PackageCache\com.unity.test-framework@d97b7cd61ded
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -4135,7 +4135,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.6
   source: 1
-  resolvedPath: C:\Users\Owner\Desktop\ComputerAsAMedium_Project\CAM_Project\Library\PackageCache\com.unity.testtools.codecoverage@205a02cbcb39
+  resolvedPath: C:\Users\Owner\Desktop\Fighter Planes Spring 2025\Library\PackageCache\com.unity.testtools.codecoverage@205a02cbcb39
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -4270,7 +4270,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.0
   source: 1
-  resolvedPath: C:\Users\Owner\Desktop\ComputerAsAMedium_Project\CAM_Project\Library\PackageCache\com.unity.settings-manager@41738c275190
+  resolvedPath: C:\Users\Owner\Desktop\Fighter Planes Spring 2025\Library\PackageCache\com.unity.settings-manager@41738c275190
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -4359,7 +4359,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: C:\Users\Owner\Desktop\ComputerAsAMedium_Project\CAM_Project\Library\PackageCache\com.unity.ext.nunit@031a54704bff
+  resolvedPath: C:\Users\Owner\Desktop\Fighter Planes Spring 2025\Library\PackageCache\com.unity.ext.nunit@031a54704bff
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
