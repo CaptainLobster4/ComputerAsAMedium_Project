@@ -38,10 +38,15 @@ public class PlayerController : MonoBehaviour
 
     public void LoseALife()
     {
-        //Do I have a shield? If yes: do not lose a life, but instead deactivate the shield's visibility
-        //If not: lose a life
-        //lives = lives - 1;
-        //lives -= 1;
+        // --- SHIELD CHECK ---
+        if (shieldPrefab.activeSelf)
+        {
+            // Shield saves the player, but disappears
+            shieldPrefab.SetActive(false);
+            gameManager.ManagePowerupText(0);
+            gameManager.PlaySound(2);
+            return;     // Important! Stops the function so no life is lost
+        }
         lives--;
         gameManager.ChangeLivesText(lives);
         if (lives == 0)
@@ -65,6 +70,13 @@ public class PlayerController : MonoBehaviour
     {
         yield return new WaitForSeconds(3f);
         weaponType = 1;
+        gameManager.ManagePowerupText(0);
+        gameManager.PlaySound(2);
+    }
+    IEnumerator ShieldPowerDown()
+    {
+        yield return new WaitForSeconds(3f);
+        shieldPrefab.SetActive(false);
         gameManager.ManagePowerupText(0);
         gameManager.PlaySound(2);
     }
@@ -102,10 +114,13 @@ public class PlayerController : MonoBehaviour
                     gameManager.ManagePowerupText(3);
                     break;
                 case 4:
-                    //Picked up shield
-                    //Do I already have a shield?
-                    //If yes: do nothing
-                    //If not: activate the shield's visibility
+                    // Picked up shield
+                    if (!shieldPrefab.activeSelf)       // only give a shield if we don't already have one
+                    {
+                        shieldPrefab.SetActive(true);   // <-- MAKE IT APPEAR
+                        StartCoroutine(ShieldPowerDown());
+                    }
+
                     gameManager.ManagePowerupText(4);
                     break;
             }
